@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  margin: 10px;
+}
+
+.subject {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 5px;
+}
+
+.teacher{
+  background-color: #D8D8D8;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.students {
+  border: 1px solid black;
+  margin: 10px 0 0 0;
+  padding: 10px;
+}
+
+.students p .nameStyle{
+  cursor: pointer;
+}
+
+.subject h1{
+  cursor: pointer;
+}
+
+.subject h1:hover{
+  color: grey;
+}
+
+.students p .nameStyle:hover{
+  color: grey;
+}
